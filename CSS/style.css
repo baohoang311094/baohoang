@@ -1,0 +1,312 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+.outer{
+	width: 1500px;
+	height: 3500px;
+/*	background: #F3D7D7;*/
+	margin:0 auto;
+}
+.header{
+	width: 1500px;
+	height: 180px;
+	background: white;
+	margin:0 auto;
+}
+.header-top{
+	width: 1200px;
+	height: 80px;
+	background: white;
+	padding-top:30px;
+	padding-left:150px;
+}
+.faq{
+	width: 200px;
+	height: 80px;
+	background: white;
+	float:left;
+}
+.faq a{
+	text-decoration: none;
+	color:grey;
+}
+.name{
+	width: 800px;
+	height: 80px;
+	background: white;
+	float:left;
+	text-align: center
+}
+.name h1{
+	font-style: italic;
+}
+.signup{
+	width: 100px;
+	height: 80px;
+	background: white;
+	text-align: right;
+	float:left;
+}
+.signup a{
+	text-decoration: none;
+	color:grey;
+}
+.mycart{
+	width: 100px;
+	height: 80;
+	background:white;
+	text-align: right;
+	float:right;
+}
+.mycart a{
+	text-decoration: none;
+	color:grey;
+}
+.menu{
+	width: 1450px;
+	height: 120px;
+	background: white;
+	padding-left:15px
+	}
+.menu ul{
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	width: 158px;
+	height: 40px;
+	text-align: center;
+	line-height: 30px;
+}
+.menu a{
+	text-decoration: none;
+	color:black;
+}
+.box-1{
+	width: 1500px;
+	height: 300px;
+	background:#3B3A3A;
+	text-align:center
+}
+.box-1 h1{
+	padding-top:220px;
+	font-style: italic;
+	color:white;
+}
+.box-2{
+	width: 1500px;
+	height: 280px;
+	background:white;
+	text-align:center
+}
+.box-2 p{
+	font-style: italic;
+	color:black;
+	padding-top:30px;
+}
+.box-3{
+	width: 1200px;
+	height: 450px;
+	background:white;
+	margin:0 auto;
+	
+}
+.box-3-1{
+	width: 590px;
+	height: 50px;
+	background:white;
+	float:left;
+}
+.box-3-2{
+	width: 590px;
+	height: 50px;
+	background:white;
+	float:right;
+}
+.box-3-3{
+	width: 590px;
+	height: 400px;
+	background:#ADADAD;
+	float:left;
+}
+.box-3-3 a{
+	text-decoration: none;
+}
+.box-3-3 p{
+	padding-top:270px;
+	padding-left:30px;
+	color:#474747;
+}
+.box-3-3 h3{
+	padding-top:30px;
+	padding-left:30px;
+	color:#474747;
+}
+.box-3-4{
+	width: 590px;
+	height: 400px;
+	background:#ADADAD;
+	float:right;
+}
+.box-3-4 a{
+	text-decoration: none;
+}
+.box-3-4 p{
+	padding-top:270px;
+	padding-left:30px;
+	color:#474747;
+}
+.box-3-4 h3{
+	padding-top:30px;
+	padding-left:30px;
+	color:#474747;
+}
+/*box-4*/
+.box-4{
+	width: 1200px;
+	height: 450px;
+	background:white;
+	margin:0 auto;
+	padding-top:70px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+.box-4-1{
+	width: 590px;
+	height: 50px;
+	background:white;
+	float:left;
+}
+.box-4-2{
+	width: 590px;
+	height: 50px;
+	background:white;
+	float:right;
+}
+.box-4-3{
+	width: 590px;
+	height: 400px;
+	background:#ADADAD;
+	float:left;
+}
+.box-4-3 a{
+	text-decoration: none;
+}
+.box-4-3 p{
+	padding-top:270px;
+	padding-left:30px;
+	color:#474747;
+}
+.box-4-3 h3{
+	padding-top:30px;
+	padding-left:30px;
+	color:#474747;
+}
+.box-4-4{
+	width: 590px;
+	height: 400px;
+	background:#ADADAD;
+	float:right;
+}
+.box-4-4 a{
+	text-decoration: none;
+}
+.box-4-4 p{
+	padding-top:270px;
+	padding-left:30px;
+	color:#474747;
+}
+.box-4-4 h3{
+	padding-top:30px;
+	padding-left:30px;
+	color:#474747;
+}
+/*box-5*/
+.box-5{
+	width: 1200px;
+	height: 200px;
+	background:white;
+	margin:0 auto;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+.box-5-1{
+	width: 570px;
+	height: 250px;
+	background:#ADADAD;
+	float:left;
+}
+.box-5-1-1{
+	width: 285px;
+	height: 250px;
+	float:left;
+}
+.box-5-1-1 h3{
+	padding-top:200px;
+	padding-left:30px;
+	color:azure;
+	font-style:italic
+}
+.box-5-1-2{
+	width: 285px;
+	height: 250px;
+	background: #E3E3E3;
+	float:left;
+}
+.box-5-1-2 h2{
+	padding-top:20px;
+	padding-left:20px;
+	font-style:italic
+}
+.box-5-1-2 a{
+	text-decoration: none;
+}
+.box-5-1-2 p{
+	padding-top:70px;
+	padding-left:20px;
+	color:#474747
+}
+.box-5-1-2 h3{
+	padding-top:30px;
+	padding-left:20px;
+	color:#474747;
+}
+.box-5-2{
+	width: 570px;
+	height: 250px;
+	background:#ADADAD;
+	float:right;
+}
+.box-5-2 a{
+	text-decoration: none;
+}
+.box-5-2 p{
+	padding-top:135px;
+	padding-left:30px;
+	color:#474747;
+}
+.box-5-2 h3{
+	padding-top:30px;
+	padding-left:30px;
+	color:#474747;
+}
+
+.footer{
+	width: 1200px;
+	height: 200px;
+	margin:0 auto;
+}
+.copyright{
+	padding-top:70px;
+	padding-left:30px;
+	float:left;
+}
+.designed{
+	padding-top:70px;
+	padding-right:30px;
+	float:right;
+}
+
